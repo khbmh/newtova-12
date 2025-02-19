@@ -97,7 +97,7 @@ function Trending() {
     <div>
       <SecTitle
         title="Trending Products"
-        description="See what the community is loving right now! These are the most upVoted and talked-about tech products. Dive into the trends and find tools that are making waves. Don’t forget to upvote your favorites!"
+        description="Explore what the community is loving right now! These are the most upVoted and talked-about tech products. Dive into the trends and find tools that are making waves. Don’t forget to upvote your favorites!"
       />
       <div className="grid grid-cols-1 lg:grid-cols-3 items-center justify-center w-full mx-auto gap-4 p-4">
         {trendingProducts
