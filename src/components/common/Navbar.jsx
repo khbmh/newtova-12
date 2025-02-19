@@ -120,9 +120,11 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="hidden lg:flex flex-col lg:flex-row justify-center gap-1 lg:gap-8 *:px-4 *:py-2 *:rounded-lg ">
+        <div className="hidden lg:flex flex-col lg:flex-row justify-center gap-1 lg:gap-4 *:px-4 *:py-2 *:rounded-lg ">
           <NavLink to="all-products">All Products</NavLink>
           <NavLink to="add-product">Add Product</NavLink>
+          <a href="#faq">FAQs</a>
+          <a href="#review">Reviews</a>
           <NavLink to="my/added-products">My Products</NavLink>
           {/* <NavLink to="my/liked-items">likedProducts</NavLink> */}
         </div>

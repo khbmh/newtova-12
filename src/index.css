@@ -6,7 +6,9 @@
   border: solid 1px #ffffff89;
   color: rgb(251, 217, 217);
 }
-
+html{
+  scroll-behavior: smooth;
+}
 div {
   transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
