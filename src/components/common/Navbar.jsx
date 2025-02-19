@@ -140,7 +140,7 @@ function Navbar() {
           <div className="relative">
             <img
               onClick={handleShowHide}
-              className="w-[40px] h-[40px] border border-yellow-300/50 rounded-full mx-1 cursor-pointer"
+              className="w-[40px] h-[40px] border border-yellow-300/60 rounded-full mx-1 cursor-pointer"
               src={user.photoURL}
               alt=""
             />
