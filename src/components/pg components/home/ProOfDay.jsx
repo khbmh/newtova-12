@@ -132,7 +132,7 @@ function ProOfDay() {
                   {product.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="bg-pink-900 text-white text-sm px-2 py-1 rounded-full"
+                      className="bg-pink-900 text-white text-sm px-2 py-1 rounded"
                     >
                       {tag}
                     </span>
